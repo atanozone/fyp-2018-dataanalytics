@@ -1,0 +1,38 @@
+{
+  "name": "fyp-2018-django",
+  "version": "1.0.0",
+  "description": "## PYTHON VirtualEnv In dev: set 1 server DJANGO (as backend api) REACTJS (as frontend part of )",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development ./backenddjango/frontendreact/src/index.js --output ./backenddjango/frontendreact/static/frontendreact/main.js",
+    "build": "webpack --mode production ./backenddjango/frontendreact/src/index.js --output ./backenddjango/frontendreact/static/frontendreact/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atanozone/fyp-2018-django.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atanozone/fyp-2018-django/issues"
+  },
+  "homepage": "https://github.com/atanozone/fyp-2018-django#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "file-loader": "^2.0.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-svg-loader": "^2.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
